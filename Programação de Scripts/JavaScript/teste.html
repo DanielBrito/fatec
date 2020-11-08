@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+		a = 10;
+		b = 3; 
+		c = a + b;
+		console.log(c);
+	</script>
+
+<script type="text/javascript" src="script.js"></script>
+</head>
+<body onkeydown="redimensionar()">
+	<button onclick = "mostrarData()"> Mostrar Data </button>
+	<p id="data"></p>
+	<img src="iron1.jpg" id="foto" 
+		 onmouseover="trocar('iron1.jpg', this)"
+		 onmouseout="trocar('iron2.jpg', this)">
+
+		 <img src="mario.jpg" id="mario">
+
+		 <form>
+		 	<input type="text" id="nota1">
+		 	<input type="text" id="nota2">
+		 	<input type="button" value="calcular" onclick="calcular()">
+		 	<label id="media"></label>
+		 </form>
+</body>
+</html>
